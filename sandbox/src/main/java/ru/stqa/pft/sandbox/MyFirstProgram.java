@@ -14,12 +14,11 @@ public class MyFirstProgram {
     Rectangle r = new Rectangle(4, 6);
     System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " равна " + r.area());
 
-    Point p1 = new Point(5, 8, 2, 12);
-    System.out.println("Расстояние между точками " + p1.x1 + "," + p1.y1 + " и " + p1.x2 + "," + p1.y2 + " равно " + p1.distance());
   }
 
   public static void hello(String somebody) {
     System.out.println("Hello, " + somebody + "!");
   }
+
 
 }
